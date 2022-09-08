@@ -56,3 +56,94 @@ font-family: 'Mrs Saint Delafield', cursive; */
     overflow: hidden;
     transform: rotate(180deg);
 }
+
+/* page2 */
+.page2{
+    padding: 30px;
+}
+.card-body, .card-content-area{
+padding: 15px;
+width: 100%;
+height: 100%;
+display: flex;
+align-items: center;
+justify-content: center;
+border: 1px dashed #7ec69e;
+}
+.card-content-area{
+    border: 1px dashed #f29088;
+    flex: 1 1 50%;
+    padding: 30px;
+}
+.postage, .writing{
+    width: 100%;
+}
+.writing p{
+    font-family: 'Mrs Saint Delafield', cursive; 
+    font-size: 3rem;
+    padding-right: 80px;
+    text-align: justify;
+}
+.postage{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    height: 100%;
+}
+.postage .thanks{
+    width: 100%;
+    text-align: end;
+}
+.address{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: sans-serif;
+}
+.address span{
+    padding: 20px;
+    border: 2px solid black;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+.address p {
+    font-size: 14px;
+    color: #686868;
+}
+.jontan-area p {
+    font-size: 1.4rem;
+    font-weight: 600;
+    line-height: 63px;
+}
+@media (max-width:900px) {
+    .page1{
+        height: 100vh;
+    }
+    .page2{
+        height: max-content;
+        padding: 15px;
+    }
+    .card-body, .card-content-area{
+        padding: 5px;
+    }
+    .card-content-area{
+        flex-direction: column;
+        flex-wrap: wrap;
+        padding: 15px;
+    }
+    .center-content p{font-size: 2rem;}
+    .center-content h1{font-size: 3rem;}
+    .writing p{padding: 0;font-size: 2rem;line-height: 30px;}
+    .address span {
+        padding: 10px;
+        font-size: 1rem;
+    }
+    .jontan-area p {
+        font-size: 1rem;
+    }
+    .jontan-area h2 {
+        font-size: 1rem;
+    }
+}
