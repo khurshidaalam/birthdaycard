@@ -83,6 +83,7 @@ border: 1px dashed #7ec69e;
     font-size: 3rem;
     padding-right: 80px;
     text-align: justify;
+    color: blue;
 }
 .postage{
     display: flex;
